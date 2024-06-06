@@ -1,0 +1,59 @@
+.CardContainer {
+  display: flex;
+  flex-direction: column; /* Os cartões serão empilhados verticalmente */
+  
+}
+
+.App {
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,27,187,1) 23%, rgba(0,212,255,1) 100%);
+}
+
+.Board {
+  display: flex;
+  
+}
+
+.List {
+  margin: 0 10px;
+  padding: 8px;
+  background-color: #dfe3e6;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Adiciona barra de rolagem vertical */
+  max-height: calc(100vh - 100px); /* Define altura máxima para a coluna */
+}
+
+
+.List h2 {
+  margin: 0;
+  padding-bottom: 8px;
+  font-size: 18px;
+}
+
+.Card {
+  margin: 8px 0;
+  padding: 20px; /* Aumentar o padding para aumentar o tamanho do cartão */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.AddTaskButton {
+  margin-top: 8px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.AddTaskButton:hover {
+  background-color: #45a049;
+}
+
+
+.custom-btn {
+  width: 100%;
+}
